@@ -1,0 +1,58 @@
+/*Body*/
+body {
+  margin: 0%;
+  padding: 0%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/*Main content*/
+.site-content {
+  /*rien pour l'instant*/
+}
+
+/*Header*/
+header {
+  width: 100%;
+  height: 50px;
+  background: #1ee783;
+}
+
+/*footer*/
+footer {
+  background: #1ee783;
+  width: 100%;
+  padding-top: 50px;
+  height: 25px;
+}
+footer > a:link {
+  color: purple;
+  text-decoration: none;
+}
+footer > a:visited {
+  color: red;
+  text-decoration: none;
+}
+footer > a:hover {
+  color: blue;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*Elements des pages*/
+.formulaire {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 9px 22px 11px #000000;
+  box-shadow: 5px 9px 22px 11px #000000;
+
+  padding: 2%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
