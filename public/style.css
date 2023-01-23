@@ -8,11 +8,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/*Main content*/
-.site-content {
-  /*rien pour l'instant*/
-}
-
 /*Header*/
 header {
   width: 100%;
@@ -56,6 +51,7 @@ footer > a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
+  margin-bottom: 3%;
 }
 
 .formulaire > h3 {
@@ -84,4 +80,17 @@ footer > a:hover {
 .formulaire > .submitButton:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.error{
+  display: flex;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no{
+  color: green;
 }
